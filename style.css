@@ -135,6 +135,9 @@ body{
 /* the main css begins here */
 
 /* the header section */
+p{
+    font-size: 15px;
+}
 .nav a{
     text-decoration: none;
     color: rgb(193, 222, 248);
@@ -213,7 +216,6 @@ body{
 .about img{
     width: 100%;
     height: 200px;
-    border: 1px solid #eceaea;
     margin: 20px 0;
 }
 .about div{
