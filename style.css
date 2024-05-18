@@ -180,7 +180,7 @@ p{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 15px;
+    padding-right: 15px;
 }
 .contact form input[type=text] {
     /* background-color: white; */
@@ -188,13 +188,14 @@ p{
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding-left: 40px;
-    width: 80%;
+    /* width: 70%; */
     border-radius: 50px;
 }
-.contact a{
+.nav .contact a{
     border: 1px solid rgb(44, 4, 4);
-    border-radius: 25px;
-    padding: 5px 10px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 12px;
     background-color: rgb(44, 4, 4);
 }
 
