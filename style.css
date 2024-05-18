@@ -193,9 +193,8 @@ p{
 }
 .contact a{
     border: 1px solid rgb(44, 4, 4);
-    border-radius: 50px;
-    font-size: 15px;
-    padding: 5px 25px;
+    border-radius: 25px;
+    padding: 5px 10px;
     background-color: rgb(44, 4, 4);
 }
 
