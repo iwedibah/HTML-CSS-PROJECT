@@ -1,0 +1,801 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    text-align: center;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1.5;
+}
+
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* MEDIA QUERY */
+@media (max-width: 700px) {
+/* the main css begins here */
+
+/* the header section */
+.nav a{
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 700;
+}
+.nav {
+    background-color: #aa5d05;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 10px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 5px 0 10px 10px;
+}
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.list{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+}
+.list a:hover{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 15px;
+}
+.contact form input[type=text] {
+    /* background-color: white; */
+    background-image: url('Kingx/detail_11386878.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    width: 100%;
+    border-radius: 50px;
+}
+.contact a{
+    border: 1px solid rgb(44, 4, 4);
+    border-radius: 50px;
+    padding: 5px 15px;
+    background-color: rgb(44, 4, 4);
+}
+
+/* this is the about section */
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.about h1{
+    text-align:left;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0 0 5px 0;
+    text-align: center;
+}
+.about img{
+    width: 100%;
+    height: 200px;
+    border-radius: 100%;
+    border: 1px solid #eceaea;
+    margin: 20px 0;
+}
+.about div{
+    text-align: center;
+    margin-top: 20px;
+}
+.about a{
+    border: 1px solid rgb(44, 4, 4);
+    padding: 5px 25px;
+    background-color: rgb(44, 4, 4);
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+    border-radius: 50px;
+    transition: background-color 200ms ease-in-out;
+}
+.about a:hover{
+    border: 1px solid rgb(44, 4, 4);
+    border-radius: 100px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+}
+
+/* THIS IS THE WORK SECTION */
+.work {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.work h1 {
+    text-align: left;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.lists li{
+    border-bottom: 1px solid rgb(196, 196, 196);
+    padding: 5px 0;
+    text-align: left;
+}
+.list video{
+    height: 50px;
+    width: 100%;
+}
+
+.work a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+}
+.work .acontact{
+    border: 1px solid rgb(44, 4, 4);
+    padding: 5px 25px;
+    margin-top: 20px 0;
+    background-color: rgb(44, 4, 4);
+    transition: background-color 200ms ease-in-out;
+    border-radius: 50px;
+}
+
+.work .acontact:hover {
+    border: 1px solid rgb(44, 4, 4);
+    border-radius: 100px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+}
+
+/* THIS IS THE RESUME SECTION  */
+.resume {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: justify;
+}
+
+.resume h1 {
+    text-align: left;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.resume .tables{
+    overflow-x: auto;
+}
+.resume table,th, tr, td{
+    border: 1px solid grey;
+    border-collapse: collapse;
+    width: 100%;
+    word-wrap:break-word;
+    color: grey;
+}
+.resume th{
+    padding: 10px;
+}
+.resume tr,td{
+    padding: 5px;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: rgb(44, 4, 4);
+}
+.resume div{
+    text-align: center;
+}
+.resume a {
+    border: 1px solid rgb(44, 4, 4);
+    padding: 5px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+    background-color: rgb(44, 4, 4);
+    transition: background-color 200ms ease-in-out;
+    border-radius: 50px;
+}
+.resume .awork{
+    margin: 20px 0;
+}
+
+.resume a:hover {
+    border: 1px solid #2c0404;
+    border-radius: 100px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+}
+
+/* THIS IS THE CONTACT US SECTION. */
+.contactus {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    text-align: justify;
+}
+.contactus h1{
+    text-align: left;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.contactus .acon{
+    margin-bottom: 10px;
+}
+.forms{
+    border: 1px solid #2c0404;
+    padding: 20px 20px;
+    text-align: left;
+    margin-top: 10px;
+}
+/* input {
+    width: 70%;
+} */
+input[type=text], [type=email] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    margin-top: 10px;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+.contactus .acon {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contactus a {
+    border: 1px solid rgb(44, 4, 4);
+    padding: 5px 25px;
+    margin-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+    background-color: rgb(44, 4, 4);
+    transition: background-color 200ms ease-in-out;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.contactus a:hover {
+    border: 1px solid #2c0404;
+    border-radius: 100px;
+    padding: 5px 25px;
+    text-decoration: none;
+    color: rgb(193, 222, 248);
+    font-weight: 400;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    padding: 20px 0;
+} 
+footer a{
+    text-decoration: none;
+    color: gray;
+    border-right: 1px solid gray;
+    padding: 0 10px;
+}
+footer a:last-child{
+    border-right: none;
+}
+}
+/* MEDIA QUERY */
+@media (min-width: 700px) {
+    /* media query for nav section. */
+    .nav {
+        display: flex;
+        background-color: #aa5d05;
+        flex-direction: row;
+        justify-content:space-between;
+        padding: 10px 10px;
+        max-width: 100%;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    .nav1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 50%;
+    }
+    .nav1 ul{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        width: 50%;
+    }
+    .nav a {
+        text-decoration: none;
+        color: rgb(193, 222, 248);
+        font-weight: 700;
+    }
+    .list a:hover {
+        border-bottom: 1px solid #2c0404;
+        color: #ccc;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 0;
+    }
+    
+    .contact form input[type=text] {
+        padding: 10px 40px;
+        width: 100%;
+        border-radius: 50px;
+    }
+    
+    .contact a {
+        border: 1px solid rgb(44, 4, 4);
+        border-radius: 50px;
+        padding: 5px 15px;
+        background-color: rgb(44, 4, 4);
+    }
+
+    /* this is the about section */
+    .about {
+        display: flex;
+        flex-direction: row;
+        padding: 50px 30px;
+        text-align: left;
+    }
+    .about .adiv1{
+        width: 100%;
+        }
+    .about h1 {
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0 0 5px 0;
+        text-align: left;
+    }
+    .about p{
+        text-align: left;
+    }
+    .about img {
+        width: 80%;
+        height: 350px;
+        /* border-radius: 100%; */
+        /* border: 1px solid #eceaea; */
+        margin: 20px 0;
+    }
+    .about .abtm {
+        text-align: left;
+        margin-top: 20px;
+    }
+    .about a {
+        border: 1px solid rgb(44, 4, 4);padding: 5px 25px;
+        background-color: rgb(44, 4, 4);text-decoration: none;
+        color: rgb(193, 222, 248);font-weight: 400;
+        /* border-radius: 50px; */
+        transition: background-color 200ms ease-in-out;
+    }
+    .about a:hover {
+        border: 1px solid #2c0404;background-color: transparent;border-radius: 100px;
+        padding: 5px 25px;
+        text-decoration: none;
+        color: #2c0404;
+        font-weight: 400;
+    }
+
+    /* this is for the works section. */
+    .work {
+        /* display: flex; */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 30px;
+        text-align: left;
+    }
+    .work .adiv1{
+        width: 100%;
+        margin-right: 10px;
+        }
+    .work h1 {
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0 0 5px 0;
+        text-align: center;
+    }
+    .work p{
+        text-align: left;
+    }
+    .lists{
+        display: flex;
+        flex-direction: row;
+        padding: 10px 10px;
+    }
+    .lists li {
+        border-bottom: 1px solid rgb(196, 196, 196);
+        padding: 5px 0;
+        text-align: left;
+    }
+    
+        .work .acontact {
+            text-align: left;
+            margin-top: 20px;
+        }
+        .work a {
+            border: 1px solid rgb(44, 4, 4);
+            padding: 5px 100px;
+            margin-top: 10px;
+            text-decoration: none;
+            color: rgb(193, 222, 248);
+            font-weight: 400;
+            background-color: rgb(44, 4, 4);
+            transition: background-color 200ms ease-in-out;
+        }
+    
+        .work a:hover {
+            border: 1px solid #2c0404;
+            background-color: transparent;
+            border-radius: 100px;
+            text-decoration: none;
+            color: #2e0404;
+            font-weight: 400;
+        }
+        .work .vid{
+            width: 100%;
+            height: 400px;
+            margin-bottom: 70px;
+        }
+
+    /* Resume Section begins     */
+
+    .resume{
+        display: flex;
+        background-color: rgba(46, 4, 4,0.1);
+        padding: 50px 30px;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume h1 {
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin: 0 0 5px 0;
+        text-align: left;
+    }
+    .resume p {
+        text-align: justify;
+        margin-right: 20px;
+    }
+    .tables {
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .resume table,
+    th,
+    tr,
+    td {
+        border: 1px solid grey;
+        border-collapse: collapse;
+        /* width: 100%; */
+        word-wrap: break-word;
+        color: grey;
+        text-align: center;
+    }
+    
+    .resume th {
+        padding: 10px;
+    }
+    
+    .resume tr,
+    td {
+        padding: 5px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    
+    tr:hover {
+        background-color: rgb(44, 4, 4);
+    }
+
+    .resume .awork {
+        text-align: left;
+        margin-top: 20px;
+    }
+    
+    .resume a {
+        border: 1px solid rgb(44, 4, 4);
+        padding: 5px 100px;
+        margin-top: 10px;
+        text-decoration: none;
+        color: rgb(193, 222, 248);
+        font-weight: 400;
+        background-color: rgb(44, 4, 4);
+        transition: background-color 200ms ease-in-out;
+    }
+    
+    .resume a:hover {
+        border: 1px solid #2c0404;
+        background-color: transparent;
+        border-radius: 100px;
+        text-decoration: none;
+        color: #2e0404;
+        font-weight: 400;
+    }
+
+    /* this is the contact section. */
+    .contactus {
+        display: flex;
+        flex-direction: row;
+        padding: 20px 10px 50px 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    
+    .contactus div:first-child{
+        width: 50%;
+    }
+    .contactus h1 {
+        text-align: left;
+        font-weight: 900;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .contactus p {
+        text-align: justify;
+        margin-right: 20px;
+    } 
+    .contactus div {
+         text-align: left;
+         margin-top: 20px;
+     }
+    
+     .contactus a {
+         border: 1px solid rgb(44, 4, 4);
+         padding: 5px 100px;
+         margin-top: 10px;
+         text-decoration: none;
+         color: rgb(193, 222, 248);
+         font-weight: 400;
+         background-color: rgb(44, 4, 4);
+         transition: background-color 200ms ease-in-out;
+     }
+    
+     .contactus a:hover {
+         border: 1px solid #2c0404;
+         background-color: transparent;
+         border-radius: 100px;
+         text-decoration: none;
+         color: #2e0404;
+         font-weight: 400;
+     }
+    
+    .forms {
+        border: 1px solid #2c0404;
+        padding: 20px 20px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    
+    /* input {
+        width: 70%;
+    } */
+    input[type=text],
+    [type=email] {
+        width: 100%;
+        padding: 10px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    
+    textarea {
+        width: 100%;
+        height: 150px;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;
+        margin-top: 10px;
+    }
+    
+    select {
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+    }
+    
+    footer {
+        background-color: black;
+        margin: 0;
+        padding: 20px 0;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: gray;
+        border-right: 1px solid grey;
+        padding: 0 5px;
+    }
+    footer a:last-child{
+        border-right: none;
+    }
+}

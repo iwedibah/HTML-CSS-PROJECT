@@ -4,28 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css">
     <title>HTML PROJECT</title>
   </head>
   <body>
     <!-- THIS IS THE HEADER SECTION -->
     <header id="home">
-      <nav>
+      <div class="nav">
+        <div class="nav1">
+          <div class="Home">
+            <a href="#home" class="home">
+            <img src="/Kingx/icon-sedans.svg" alt="">
+          </a>
+        </div>
+        <ul class="list">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#resume">Resume</a>
+        </ul>
+        </div>
+        <div class="contact">
+        <form action="#">
+          <label for="search"></label>
+          <input type="text" id="search" name="search" placeholder="Search Here">
+        </form>        
+          <a href="#contact">Contact Us</a>
+        </div>
+      </div>
+      <!-- <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#work">Work</a>
         <a href="#resume">Resume</a>
         <a href="#contact">Contact</a>
-      </nav>
+      </nav> -->
     </header>
     <!-- THIS IS THE ABOUT SECTION -->
-    <section id="about">
+    <section class="about" id="about">
+      <div class="adiv1">
       <h1>ABOUT PAGE</h1>
-      <img
-        src="robot-relaxing-laptop.jpg"
-        alt="robot relaxing"
-        width="50%"
-        height="400px"
-      />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore fuga
         cumque ex eos fugit? Repellendus dolores sed dolorum, libero amet
@@ -44,19 +61,19 @@
         Doloribus sed cumque dignissimos nobis, dolor facere id dolorem animi
         sapiente, expedita assumenda at omnis deleniti praesentium?
       </p>
-      <div>
-        <a href="#work">See Our Works</a>
-        <a href="#contact">Click to Contact Us</a>
-        <a href="#resume">See more of our Resume</a>
+      <div class="abtm">
+        <a href="#resume">Know More</a>
       </div>
-      <hr />
+      </div>
+      <img
+        src="robot-relaxing-laptop.jpg"
+        alt="robot relaxing"/>
     </section>
+    <hr>
 
     <!-- THIS IS THE WORK SECTION. -->
-    <section id="work">
-      <video src="Think! (1).mp4" height="300px" width="70%" controls>
-        Thinking Is The Hardest Thing To Do
-      </video>
+    <section class="work" id="work">
+      <div class="adiv1">
       <h1>OUR WORKS</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quo
@@ -81,7 +98,8 @@
         eligendi sunt consequatur sit, explicabo modi porro quae voluptatum iure
         vero a. Minima. Nobis, impedit. Velit ipsa dolorum id, consequuntur
         doloribus ab modi. 
-        <div>
+      </p>
+        <div class="lists">
           <ol type="i">
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
@@ -96,24 +114,21 @@
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
             <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
           </ol>
-          <ol type="1">
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
-            <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas cum quod quo consectetur delectus autem est saepe aperiam expedita magni perferendis amet esse porro eum ut veritatis, animi deleniti.</li>
-          </ol>
         </div>
-      </p>
-      <div>
-        <a href="#about">Go back to About Us</a>
+        <div class="acontact">
         <a href="#contact">Click to Contact Us</a>
-        <a href="#resume">See more of our Resume</a>
       </div>
+    </div>
+    <div class="vid">
+      <video src="Think! (1).mp4" height="500px" width="100%" controls>
+        Thinking Is The Hardest Thing To Do
+      </video>
+    </div>
     </section>
-    <hr />
+
     <!-- THIS IS THE RESUME SECTION. -->
-    <section id="resume">
+    <section class="resume" id="resume">
+      <div class="res">
       <h1>RESUMES</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, quo
@@ -138,6 +153,11 @@
         eligendi sunt consequatur sit, explicabo modi porro quae voluptatum iure
         vero a. Minima. Nobis, impedit.
       </p>
+      <div class="awork">
+        <a href="#work">See our Works</a>
+      </div>
+      </div>
+      <div class="tables">
       <table border="1">
         <tr>
           <th>FirstName</th>
@@ -168,22 +188,22 @@
           <td>chimy@gmail.com</td>
         </tr>
       </table>
-      <br />
-      <div>
-        <a href="#about">About Us</a>
-        <a href="#contact">Click to Contact Us</a>
-        <a href="#work">See our Works</a>
       </div>
     </section>
-    <hr />
-    <section id="contact">
+    <section class="contactus" id="contact">
       <!-- THIS IS THE CONTACT US SECTION. -->
       <div>
       <h1>WE'RE 24/7 AVAILABLE</h1>
       <p>
-        Feel free to contact us right away, or drop a message with us by filling the form below, our technical team will respond to your mail as soon as possible
+        Feel free to contact us right away, or drop a message with us by filling the form below, our technical team will respond to your mail as soon as possible Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et cupiditate aut, tenetur minima animi magnam neque consequatur atque nisi cum quo ratione ipsam magni sed molestiae dignissimos molestias impedit porro?
+        Laboriosam deserunt sequi, reiciendis assumenda facere delectus. Id ullam fugit amet ut error eius excepturi rem quis? Consectetur aliquid optio cum, atque rerum consequuntur rem facilis vitae officiis nisi officia!
+        Voluptatibus earum quas deleniti perferendis consequuntur ullam tempore provident minima velit. Voluptas, consequatur, quae perferendis eligendi eos repellat eveniet minima corporis soluta id illum expedita mollitia sint odio voluptatum animi.
       </p>
+      <div class="acon">
+      <a href="#home">Scroll To Top</a>
       </div>
+      </div>
+      <div class="forms">
       <form action="">
         <p> 
           <label for="firstname">FirstName:</label>
@@ -194,7 +214,7 @@
           <input type="text" name="lastname" id="lastname" required>
       </p>
       <p>
-        <label for="email">Email Address:</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" required>
       </p>
       <p>
@@ -207,15 +227,14 @@
         </select>
       </p>
       <p>
-        <label for="textarea">Write Us A Message</label>
+        <label for="textarea"></label>
       </p>
       <p>
-        <textarea name="message" id="textarea" rows="5" cols="50"></textarea>
+        <textarea name="message" id="textarea" rows="3" cols="40" placeholder="Write Us A Message"></textarea>
       </p>       
       </form>
-      <a href="#home">Scroll To Top</a>
+      </div>
     </section>
-    <hr/>
     <!-- THIS IS THE FOOTER SECTION. -->
     <footer style="text-align: center;">
       <p>
