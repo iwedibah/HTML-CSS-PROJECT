@@ -185,7 +185,7 @@ body{
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding-left: 40px;
-    width: 100%;
+    width: 80%;
     border-radius: 50px;
 }
 .contact a{
@@ -213,7 +213,6 @@ body{
 .about img{
     width: 100%;
     height: 200px;
-    border-radius: 100%;
     border: 1px solid #eceaea;
     margin: 20px 0;
 }
@@ -223,7 +222,7 @@ body{
 }
 .about a{
     border: 1px solid rgb(44, 4, 4);
-    padding: 5px 25px;
+    padding: 10px 25px;
     background-color: rgb(44, 4, 4);
     text-decoration: none;
     color: rgb(193, 222, 248);
@@ -234,7 +233,7 @@ body{
 .about a:hover{
     border: 1px solid rgb(44, 4, 4);
     border-radius: 100px;
-    padding: 5px 25px;
+    /* padding: 5px 25px; */
     text-decoration: none;
     color: rgb(193, 222, 248);
     font-weight: 400;
@@ -273,8 +272,8 @@ body{
 }
 .work .acontact{
     border: 1px solid rgb(44, 4, 4);
-    padding: 5px 25px;
-    margin-top: 20px 0;
+    padding: 10px 25px;
+    margin: 20px 20px;
     background-color: rgb(44, 4, 4);
     transition: background-color 200ms ease-in-out;
     border-radius: 50px;
@@ -283,7 +282,7 @@ body{
 .work .acontact:hover {
     border: 1px solid rgb(44, 4, 4);
     border-radius: 100px;
-    padding: 5px 25px;
+    /* padding: 10px 25px; */
     text-decoration: none;
     color: rgb(193, 222, 248);
     font-weight: 400;
@@ -332,7 +331,7 @@ tr:hover {
 }
 .resume a {
     border: 1px solid rgb(44, 4, 4);
-    padding: 5px 25px;
+    padding: 10px 25px;
     margin-top: 10px;
     text-decoration: none;
     text-align: center;
@@ -349,7 +348,7 @@ tr:hover {
 .resume a:hover {
     border: 1px solid #2c0404;
     border-radius: 100px;
-    padding: 5px 25px;
+    /* padding: 5px 25px; */
     text-decoration: none;
     color: rgb(193, 222, 248);
     font-weight: 400;
@@ -414,7 +413,7 @@ select {
 
 .contactus a {
     border: 1px solid rgb(44, 4, 4);
-    padding: 5px 25px;
+    padding: 10px 25px;
     margin-top: 10px;
     text-decoration: none;
     text-align: center;
@@ -429,7 +428,7 @@ select {
 .contactus a:hover {
     border: 1px solid #2c0404;
     border-radius: 100px;
-    padding: 5px 25px;
+    /* padding: 5px 25px; */
     text-decoration: none;
     color: rgb(193, 222, 248);
     font-weight: 400;
