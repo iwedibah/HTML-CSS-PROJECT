@@ -135,8 +135,8 @@ body{
 /* the main css begins here */
 
 /* the header section */
-p{
-    font-size: 15px;
+body{
+    font-size: 12px;
 }
 .nav a{
     text-decoration: none;
